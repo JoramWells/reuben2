@@ -10,14 +10,14 @@ export default function About() {
         <Container>
             
             <Row>
-                <Col xs={8}><h3>Hi, I am Reuben Wanjala</h3>
+                <Col md={8}><h3>Hi, I am Reuben Wanjala</h3>
                 <p>I'm a Fullstack Web Developer who is addicted to learning and loves working with people. I live by the motto Learn Build Teach, so I’m excited to share the things I learn with you!</p>
                 </Col>
-                <Col xs={4}>
-                    <img src={reuben} alt="reubenpic" style={{width:"250px"}} className="rounded-circle"/>
+                <Col md={4}>
+                    <img src={reuben} alt="reubenpic" style={{width:"200px"}} className="rounded-circle"/>
                 </Col>
-
             </Row>
+
         </Container>
     )
 }
