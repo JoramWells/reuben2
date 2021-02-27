@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.name{
+    padding: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav0{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h3{
+    color: hsl(0, 0%, 25%);
+}
